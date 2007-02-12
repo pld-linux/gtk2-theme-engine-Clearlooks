@@ -4,7 +4,7 @@
 %define	_name	Clearlooks
 %define	_num	19527
 Summary:	%{_name} theme
-Summary(pl):	Motyw %{_name}
+Summary(pl.UTF-8):   Motyw %{_name}
 Name:		gtk2-theme-engine-%{_name}
 Version:	0.6.2
 Release:	1
@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 %{_name} theme.
 
-%description -l pl
+%description -l pl.UTF-8
 Temat %{_name}.
 
 %prep
