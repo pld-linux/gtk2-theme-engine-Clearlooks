@@ -45,5 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/themes/Clearlooks-Quicksilver
 %{_datadir}/icons/Clearlooks/index.theme
 %{_datadir}/icons/Clearlooks/*/gtk/*.png
-%dir %{_libdir}/gtk-2.0/2.4.0/engines
-%attr(755,root,root) %{_libdir}/gtk-2.0/2.4.0/engines/*.so
+%dir %{_libdir}/gtk-2.0/*/engines
+%attr(755,root,root) %{_libdir}/gtk-2.0/*/engines/*.so
